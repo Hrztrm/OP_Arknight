@@ -114,30 +114,37 @@ async def skin_f(urls, message): #Is redundant, useful if only wants a single sk
         title = s.find('h1')
         print(title.text) #Send Discord msg
         infor = infor + "Skin Name: " + title.text
-        
-        #Find the cost of skin
-        cost = soup.find('span', class_="material-quantity")
-        print("Originium Prime cost: " + cost.text[1:]) #Send Discord msg
-        infor = infor + "\nOriginium Prime cost: " + cost.text[1:]
-        
-        #Find the image of skin
-        img_div = soup.find('div', id= 'image-tab-1')
-        img_w_tag = img_div.find('img')
-        img_url = base_url + img_w_tag.attrs["src"]
-        print(img_url)
-        
+
         #Find the operator name
         artist_div = soup.find('div', class_="skin-artist skin-info-box")
         model_design = artist_div.find_all('a')
         print("Model: " + model_design[0].text)
         infor = infor + "\nModel: " + model_design[0].text
-        #print(model_design.text[1]) #For the artist of the skin
         
         #Finds the series
         series_div = soup.find('div', class_="skin-series skin-info-box")
-        series = series_div.find_all('a')
-        print("Series: " + series[0].text)
-        infor = infor + "\nSeries: " + series[0].text
+        try:
+            series = series_div.find_all('a')
+            print("Series: " + series[0].text)
+            infor = infor + "\nSeries: " + series[0].text
+        except:
+            print("Series: None")
+            infor = infor + "\nSeries: None"
+            
+        #Find the cost of skin
+        cost = soup.find('span', class_="material-quantity")
+        try:
+            print("Originium Prime cost: " + cost.text[1:])
+            infor = infor + "\nOriginium Prime cost: " + cost.text[1:]
+        except:
+            print("Originium Prime cost: Free\n")
+            infor = infor + "\nOriginium Prime cost: Free" + "\n"
+
+        #Find the image of skin
+        img_div = soup.find('div', id= 'image-tab-1')
+        img_w_tag = img_div.find('img')
+        img_url = base_url + img_w_tag.attrs["src"]
+        print(img_url)
         
         async with aiofiles.open('skin_search.jpg', 'wb') as f:
             resp = await session.request(method="GET", url=img_url)
@@ -175,9 +182,10 @@ async def skin_by_op(skin_list_url, filt, message):
             #Find the cost
             cost = s.find('span', class_="material-quantity")
             try:
-                print("Originium Prime cost: " + cost.text[1:]) #Send Discord msg
+                print("Originium Prime cost: " + cost.text[1:])
             except:
                 print("Originium Prime cost: Free\n")
+                
             #Finds the series
             series_div = s.find('div', class_="skin-series skin-info-box")
             try:
@@ -222,74 +230,6 @@ async def on_message(message):
 
     if message.content.startswith('hello'):
         await message.channel.send(message.content)
-
-    #if message.content.startswith('$OP'): # Synchornous stuff, probably should not use. But it works
-    #    f = open("Arknights_Data.txt", 'w')
-    #    f.seek(0)
-    #    f.writelines("Arknights OP Event Data\n")
-    #    base_url = "https://gamepress.gg"
-    #    source_url = "https://gamepress.gg/arknights/other/cn-event-and-campaign-list"
-    #    list_url = []
-    #    OP_tq_new = 0
-    #    OP_tq_old = 0
-    #    #
-    #    r = requests.get(source_url)
-    #    event_list_pg = BeautifulSoup(r.text, "html.parser")
-    #    s = event_list_pg.find_all("tr")
-    #    for line in s:
-    #        if "Not Yet Global" in line.text:
-    #            a = line.find("a")
-    #            event_url = a.get('href')
-    #            full_url = base_url + event_url
-    #            list_url.append(full_url)
-    #    list_url = list_url[:-2]
-    #    for num, a in enumerate(list_url):
-    #        r = requests.get(a)
-    #        soup = BeautifulSoup(r.text, "html.parser")
-    #        new_p = 0
-    #        OP_quantity = 0
-    #        epi = 0
-    #        s = soup.find('div', id= 'page-title')
-    #        for line in s:
-    #            if "Episode" in line.text:
-    #                epi = 1
-    #            elif "Page" in line.text or "CN" in line.text:
-    #                f.writelines("\n" + str(num + 1) + ". " + line.text)
-    #        #Ignore episodes
-    #        if epi == 1:
-    #            continue
-    #        try:
-    #            #Gets the value of OP received from event
-    #            event_div = soup.find_all('div', class_="event-total-summary")[0]
-    #            new_player_content = event_div.find('td', class_="event-totals-text")
-    #            #Check whether it is only for new players or not
-    #            if "New Players" in new_player_content.text:
-    #                new_p = 1
-    #                #await message.channel.send("\nNew Players only")
-    #                f.writelines("\nNew Players only")
-#
-    #            #Gets the value of OP
-    #            Object_quantity_w_tag = event_div.find("a")
-    #            Object_href = Object_quantity_w_tag.get('href')
-    #            if "originite-prime" in Object_href:
-    #                OP_quantity_w_tag = event_div.find('div', class_="item-qty")
-    #                OP_quantity = int(OP_quantity_w_tag.text)
-    #                f.writelines("\nOriginal Prime from this event: " + str(OP_quantity) + "\n")
-    #                OP_tq_new = OP_tq_new + OP_quantity
-    #                if new_p != 1:
-    #                    OP_tq_old = OP_tq_old + OP_quantity
-    #            else:
-    #                #await message.channel.send("\nEvent does not contain OP\n")
-    #                f.writelines("\nEvent does not contain OP\n")
-    #        except:
-    #            f.writelines("\nEvent does not contain OP\n")
-    #            #await message.channel.send("\nEvent does not contain OP\n")
-    #    #await message.channel.send("\nTotal OP Obtained (New Player): " + str(OP_tq_new))
-    #    #await message.channel.send("\nTotal OP Obtained (Old Player): " + str(OP_tq_old))
-    #    f.writelines("\nTotal OP Obtained (New Player): " + str(OP_tq_new))
-    #    f.writelines("\nTotal OP Obtained (Old Player): " + str(OP_tq_old))
-    #    f.close()
-    #    await message.channel.send(file=discord.File("Arknights_Data.txt"))
     
     await client.process_commands(message)
 
@@ -302,6 +242,7 @@ async def skin(message, *,arg):
         url = "https://gamepress.gg/arknights/node/"
     new_arg = arg.replace(" ", "-")
     end_url = url + new_arg
+    print(end_url)
     try:
         await client.loop.create_task(skin_f(end_url, message))
     except:
