@@ -1,4 +1,5 @@
 # This example requires the 'message_content' intent.
+#Create a file called config.py and add a variable token as for this to work. token variable is filled with the discord bot token.
 
 import discord
 #import requests #Used for synchronous
