@@ -1,57 +1,50 @@
 Arknights OP Event Data
 
-1. Under Tides Rerun - CN Event Page
+1. Dossoles Holiday Rerun - CN Event Page
 Event does not contain OP
 
-2. Contingency Contract Season #9 [Operation Deepness] - CN Event Page
-Event does not contain OP
+2. To Be Continued - CN Event Page
+Original Prime from this event: 16
 
-3. Stultifera Navis - 3rd Anniversary - CN Event Page
-Original Prime from this event: 36
+3. Dorothy’s Vision - CN Event Page
+Original Prime from this event: 27
 
-4. Arknights CN: 3rd Anniversary Livestream Summary!
-Event does not contain OP
+4. Lingering Echoes - CN Event Page
+Original Prime from this event: 29
 
-6. Arknights CN: April Fools 2022 Recap - [Barrage Fortress] Translations And Lore
-Event does not contain OP
-
-7. A Walk In The Dust Rerun - CN Event Page
+5. Under Tides Rerun - CN Event Page
 New Players only
-Original Prime from this event: 27
-
-8. Guiding Ahead - CN Event Page
-Original Prime from this event: 27
-
-9. Contingency Contract Season #8 [Operation Dawnseeker] - CN Event Page
-Event does not contain OP
-
-10. A Light Spark in Darkness - CN Event Page
-Original Prime from this event: 18
-
-11. [Happiness Coming with New Year] Log-in Event - CN Event Page
-Event does not contain OP
-
-12. Invitation To Wine - CN Event Page
 Original Prime from this event: 28
 
-13. Arknghts CN: [Spring Festival] 2022 Stream Summary
+6. Contingency Contract Season #9 [Operation Deepness] - CN Event Page
 Event does not contain OP
 
-14. [Nine-Colored Deer] and [Who Is Real] Rerun - CN Event Page
+7. Stultifera Navis - 3rd Anniversary - CN Event Page
+Original Prime from this event: 36
+
+8. Arknights CN: 3rd Anniversary Livestream Summary!
+Event does not contain OP
+
+10. Arknights CN: April Fools 2022 Recap - [Barrage Fortress] Translations And Lore
+Event does not contain OP
+
+11. A Walk In The Dust Rerun - CN Event Page
 New Players only
-Original Prime from this event: 30
+Original Prime from this event: 27
 
-15. Integrated Strategies 2 - Crimson Solitaire - Event Page
+12. Guiding Ahead - CN Event Page
+Original Prime from this event: 27
+
+13. Contingency Contract Season #8 [Operation Dawnseeker] - CN Event Page
 Event does not contain OP
 
-16. New Year 2022 - CN Event Page
+14. A Light Spark in Darkness - CN Event Page
+Original Prime from this event: 18
+
+15. [Happiness Coming with New Year] Log-in Event - CN Event Page
 Event does not contain OP
 
-17. Break the Ice - CN Event Page
-Original Prime from this event: 30
+Total Originum Prime for New Players: 208
+Total Originum Prime for Old Players: 153
 
-18. Contingency Contract Season #7 [Operation Pine Soot] - CN Event Page
-Event does not contain OP
-
-Total OP Obtained (New Player): 196
-Total OP Obtained (Old Player): 139
+Last Updated: 06/08/2022 21:01:36

@@ -1,0 +1,256 @@
+Operator: Dorothy	Rarity: 6*	Class: Specialist
+Operator: Ebenholz	Rarity: 6*	Class: Caster
+Operator: Lumen	Rarity: 6*	Class: Medic
+Operator: Irene	Rarity: 6*	Class: Guard
+Operator: Specter the Unchained	Rarity: 6*	Class: Specialist
+Operator: Horn	Rarity: 6*	Class: Defender
+Operator: Fiammetta	Rarity: 6*	Class: Sniper
+Operator: Goldenglow	Rarity: 6*	Class: Caster
+Operator: Lee	Rarity: 6*	Class: Specialist
+Operator: Ling	Rarity: 6*	Class: Supporter
+Operator: Gnosis	Rarity: 6*	Class: Supporter
+Operator: Flametail	Rarity: 6*	Class: Vanguard
+Operator: Nearl the Radiant Knight	Rarity: 6*	Class: Guard
+Operator: Fartooth	Rarity: 6*	Class: Sniper
+Operator: Saileach	Rarity: 6*	Class: Vanguard
+Operator: Mizuki	Rarity: 6*	Class: Specialist
+Operator: Ch'en the Holungday	Rarity: 6*	Class: Sniper
+Operator: Pallas	Rarity: 6*	Class: Guard
+Operator: Carnelian	Rarity: 6*	Class: Caster
+Operator: Skadi the Corrupting Heart	Rarity: 6*	Class: Supporter
+Operator: Kal'tsit	Rarity: 6*	Class: Medic
+Operator: Gladiia	Rarity: 6*	Class: Specialist
+Operator: Passenger	Rarity: 6*	Class: Caster
+Operator: Ash	Rarity: 6*	Class: Sniper
+Operator: Dusk	Rarity: 6*	Class: Caster
+Operator: Saga	Rarity: 6*	Class: Vanguard
+Operator: Archetto	Rarity: 6*	Class: Sniper
+Operator: Mountain	Rarity: 6*	Class: Guard
+Operator: Mudrock	Rarity: 6*	Class: Defender
+Operator: Rosmontis	Rarity: 6*	Class: Sniper
+Operator: Blemishine	Rarity: 6*	Class: Defender
+Operator: Surtr	Rarity: 6*	Class: Guard
+Operator: Eunectes	Rarity: 6*	Class: Defender
+Operator: Thorns	Rarity: 6*	Class: Guard
+Operator: Suzuran	Rarity: 6*	Class: Supporter
+Operator: Rosa (Poca)	Rarity: 6*	Class: Sniper
+Operator: Weedy	Rarity: 6*	Class: Specialist
+Operator: W	Rarity: 6*	Class: Sniper
+Operator: Phantom	Rarity: 6*	Class: Specialist
+Operator: Bagpipe	Rarity: 6*	Class: Vanguard
+Operator: Ceobe	Rarity: 6*	Class: Caster
+Operator: Nian	Rarity: 6*	Class: Defender
+Operator: Aak	Rarity: 6*	Class: Specialist
+Operator: Blaze	Rarity: 6*	Class: Guard
+Operator: Mostima	Rarity: 6*	Class: Caster
+Operator: Magallan	Rarity: 6*	Class: Supporter
+Operator: Hellagur	Rarity: 6*	Class: Guard
+Operator: Schwarz	Rarity: 6*	Class: Sniper
+Operator: Ch'en	Rarity: 6*	Class: Guard
+Operator: Skadi	Rarity: 6*	Class: Guard
+Operator: SilverAsh	Rarity: 6*	Class: Guard
+Operator: Saria	Rarity: 6*	Class: Defender
+Operator: Hoshiguma	Rarity: 6*	Class: Defender
+Operator: Nightingale	Rarity: 6*	Class: Medic
+Operator: Shining	Rarity: 6*	Class: Medic
+Operator: Angelina	Rarity: 6*	Class: Supporter
+Operator: Eyjafjalla	Rarity: 6*	Class: Caster
+Operator: Ifrit	Rarity: 6*	Class: Caster
+Operator: Siege	Rarity: 6*	Class: Vanguard
+Operator: Exusiai	Rarity: 6*	Class: Sniper
+Operator: Greyy the Lightningbearer	Rarity: 5*	Class: Sniper
+Operator: Astgenne	Rarity: 5*	Class: Caster
+Operator: Hibiscus the Purifier	Rarity: 5*	Class: Medic
+Operator: Czerny	Rarity: 5*	Class: Defender
+Operator: Erato	Rarity: 5*	Class: Sniper
+Operator: Windflit	Rarity: 5*	Class: Supporter
+Operator: Rockrock	Rarity: 5*	Class: Caster
+Operator: Heidi	Rarity: 5*	Class: Supporter
+Operator: Kazemaru	Rarity: 5*	Class: Specialist
+Operator: Enforcer	Rarity: 5*	Class: Specialist
+Operator: Quercus	Rarity: 5*	Class: Supporter
+Operator: Kroos the Keen Glint	Rarity: 5*	Class: Sniper
+Operator: Blacknight	Rarity: 5*	Class: Vanguard
+Operator: Shalem	Rarity: 5*	Class: Defender
+Operator: Aurora	Rarity: 5*	Class: Defender
+Operator: Kjera	Rarity: 5*	Class: Caster
+Operator: Nine-Colored Deer	Rarity: 5*	Class: Supporter
+Operator: Honeyberry	Rarity: 5*	Class: Medic
+Operator: Wild Mane	Rarity: 5*	Class: Vanguard
+Operator: Corroserum	Rarity: 5*	Class: Caster
+Operator: Ashlock	Rarity: 5*	Class: Defender
+Operator: Mulberry	Rarity: 5*	Class: Medic
+Operator: Tequila	Rarity: 5*	Class: Guard
+Operator: La Pluma	Rarity: 5*	Class: Guard
+Operator: Kirara	Rarity: 5*	Class: Specialist
+Operator: Bena	Rarity: 5*	Class: Specialist
+Operator: Akafuyu	Rarity: 5*	Class: Guard
+Operator: Toddifons	Rarity: 5*	Class: Sniper
+Operator: Heavyrain	Rarity: 5*	Class: Defender
+Operator: Frost	Rarity: 5*	Class: Specialist
+Operator: Blitz	Rarity: 5*	Class: Defender
+Operator: Tachanka	Rarity: 5*	Class: Guard
+Operator: Mr. Nothing	Rarity: 5*	Class: Specialist
+Operator: Lava the Purgatory	Rarity: 5*	Class: Caster
+Operator: Tuye	Rarity: 5*	Class: Medic
+Operator: Iris	Rarity: 5*	Class: Caster
+Operator: Robin	Rarity: 5*	Class: Specialist
+Operator: Kafka	Rarity: 5*	Class: Specialist
+Operator: Amiya (Guard)	Rarity: 5*	Class: Guard
+Operator: Whisperain	Rarity: 5*	Class: Medic
+Operator: Aosta	Rarity: 5*	Class: Sniper
+Operator: Whislash	Rarity: 5*	Class: Guard
+Operator: April	Rarity: 5*	Class: Sniper
+Operator: Mint	Rarity: 5*	Class: Caster
+Operator: Touch	Rarity: 5*	Class: Medic
+Operator: Pith	Rarity: 5*	Class: Caster
+Operator: Stormeye	Rarity: 5*	Class: Sniper
+Operator: Sharp	Rarity: 5*	Class: Guard
+Operator: Flint	Rarity: 5*	Class: Guard
+Operator: Tomimi	Rarity: 5*	Class: Caster
+Operator: Andreana	Rarity: 5*	Class: Sniper
+Operator: Chiave	Rarity: 5*	Class: Vanguard
+Operator: Beeswax	Rarity: 5*	Class: Caster
+Operator: Scene	Rarity: 5*	Class: Supporter
+Operator: Ayerscarpe	Rarity: 5*	Class: Guard
+Operator: Folinic	Rarity: 5*	Class: Medic
+Operator: Leonhardt	Rarity: 5*	Class: Caster
+Operator: Absinthe	Rarity: 5*	Class: Caster
+Operator: Tsukinogi	Rarity: 5*	Class: Supporter
+Operator: Asbestos	Rarity: 5*	Class: Defender
+Operator: Elysium	Rarity: 5*	Class: Vanguard
+Operator: Shamare	Rarity: 5*	Class: Supporter
+Operator: Sideroca	Rarity: 5*	Class: Guard
+Operator: Sesa	Rarity: 5*	Class: Sniper
+Operator: Bibeak	Rarity: 5*	Class: Guard
+Operator: Leizi	Rarity: 5*	Class: Caster
+Operator: Hung	Rarity: 5*	Class: Defender
+Operator: Snowsant	Rarity: 5*	Class: Specialist
+Operator: GreyThroat	Rarity: 5*	Class: Sniper
+Operator: Broca	Rarity: 5*	Class: Guard
+Operator: Reed	Rarity: 5*	Class: Vanguard
+Operator: Bison	Rarity: 5*	Class: Defender
+Operator: Waai Fu	Rarity: 5*	Class: Specialist
+Operator: Ceylon	Rarity: 5*	Class: Medic
+Operator: Flamebringer	Rarity: 5*	Class: Guard
+Operator: Breeze	Rarity: 5*	Class: Medic
+Operator: Executor	Rarity: 5*	Class: Sniper
+Operator: Astesia	Rarity: 5*	Class: Guard
+Operator: Glaucus	Rarity: 5*	Class: Supporter
+Operator: Swire	Rarity: 5*	Class: Guard
+Operator: Grani	Rarity: 5*	Class: Vanguard
+Operator: Nightmare	Rarity: 5*	Class: Caster
+Operator: Savage	Rarity: 5*	Class: Guard
+Operator: FEater	Rarity: 5*	Class: Specialist
+Operator: Manticore	Rarity: 5*	Class: Specialist
+Operator: Sora	Rarity: 5*	Class: Supporter
+Operator: Istina	Rarity: 5*	Class: Supporter
+Operator: Pramanix	Rarity: 5*	Class: Supporter
+Operator: Cliffheart	Rarity: 5*	Class: Specialist
+Operator: Firewatch	Rarity: 5*	Class: Sniper
+Operator: Provence	Rarity: 5*	Class: Sniper
+Operator: Vulcan	Rarity: 5*	Class: Defender
+Operator: Croissant	Rarity: 5*	Class: Defender
+Operator: Liskarm	Rarity: 5*	Class: Defender
+Operator: Projekt Red	Rarity: 5*	Class: Specialist
+Operator: Nearl	Rarity: 5*	Class: Defender
+Operator: Warfarin	Rarity: 5*	Class: Medic
+Operator: Silence	Rarity: 5*	Class: Medic
+Operator: Mayer	Rarity: 5*	Class: Supporter
+Operator: Skyfire	Rarity: 5*	Class: Caster
+Operator: Amiya	Rarity: 5*	Class: Caster
+Operator: Meteorite	Rarity: 5*	Class: Sniper
+Operator: Platinum	Rarity: 5*	Class: Sniper
+Operator: Blue Poison	Rarity: 5*	Class: Sniper
+Operator: Specter	Rarity: 5*	Class: Guard
+Operator: Lappland	Rarity: 5*	Class: Guard
+Operator: Indra	Rarity: 5*	Class: Guard
+Operator: Franka	Rarity: 5*	Class: Guard
+Operator: Texas	Rarity: 5*	Class: Vanguard
+Operator: Zima	Rarity: 5*	Class: Vanguard
+Operator: Ptilopsis	Rarity: 5*	Class: Medic
+Operator: Chestnut	Rarity: 4*	Class: Medic
+Operator: Pudding	Rarity: 4*	Class: Caster
+Operator: Roberta	Rarity: 4*	Class: Supporter
+Operator: Indigo	Rarity: 4*	Class: Caster
+Operator: Beanstalk	Rarity: 4*	Class: Vanguard
+Operator: Pinecone	Rarity: 4*	Class: Sniper
+Operator: Bubble	Rarity: 4*	Class: Defender
+Operator: Arene	Rarity: 4*	Class: Guard
+Operator: Aciddrop	Rarity: 4*	Class: Sniper
+Operator: Jaye	Rarity: 4*	Class: Specialist
+Operator: Click	Rarity: 4*	Class: Caster
+Operator: Podenco	Rarity: 4*	Class: Supporter
+Operator: Jackie	Rarity: 4*	Class: Guard
+Operator: Cutter	Rarity: 4*	Class: Guard
+Operator: Conviction	Rarity: 4*	Class: Guard
+Operator: Utage	Rarity: 4*	Class: Guard
+Operator: Purestream	Rarity: 4*	Class: Medic
+Operator: Ambriel	Rarity: 4*	Class: Sniper
+Operator: May	Rarity: 4*	Class: Sniper
+Operator: Ethan	Rarity: 4*	Class: Specialist
+Operator: Dur-nar	Rarity: 4*	Class: Defender
+Operator: Vermeil	Rarity: 4*	Class: Sniper
+Operator: Myrtle	Rarity: 4*	Class: Vanguard
+Operator: Sussurro	Rarity: 4*	Class: Medic
+Operator: Greyy	Rarity: 4*	Class: Caster
+Operator: Beehunter	Rarity: 4*	Class: Guard
+Operator: Shaw	Rarity: 4*	Class: Specialist
+Operator: Earthspirit	Rarity: 4*	Class: Supporter
+Operator: Deepcolor	Rarity: 4*	Class: Supporter
+Operator: Gummy	Rarity: 4*	Class: Defender
+Operator: Cuora	Rarity: 4*	Class: Defender
+Operator: Matterhorn	Rarity: 4*	Class: Defender
+Operator: Perfumer	Rarity: 4*	Class: Medic
+Operator: Gavial	Rarity: 4*	Class: Medic
+Operator: Myrrh	Rarity: 4*	Class: Medic
+Operator: Rope	Rarity: 4*	Class: Specialist
+Operator: Gravel	Rarity: 4*	Class: Specialist
+Operator: Mousse	Rarity: 4*	Class: Guard
+Operator: Estelle	Rarity: 4*	Class: Guard
+Operator: Frostleaf	Rarity: 4*	Class: Guard
+Operator: Matoimaru	Rarity: 4*	Class: Guard
+Operator: Dobermann	Rarity: 4*	Class: Guard
+Operator: Vigna	Rarity: 4*	Class: Vanguard
+Operator: Scavenger	Rarity: 4*	Class: Vanguard
+Operator: Courier	Rarity: 4*	Class: Vanguard
+Operator: Shirayuki	Rarity: 4*	Class: Sniper
+Operator: Meteor	Rarity: 4*	Class: Sniper
+Operator: Jessica	Rarity: 4*	Class: Sniper
+Operator: Gitano	Rarity: 4*	Class: Caster
+Operator: Haze	Rarity: 4*	Class: Caster
+Operator: Reserve Operator - Caster	Rarity: 3*	Class: Caster
+Operator: Reserve Operator - Logistics	Rarity: 3*	Class: Medic
+Operator: Reserve Operator - Sniper	Rarity: 3*	Class: Sniper
+Operator: Reserve Operator - Melee	Rarity: 3*	Class: Vanguard
+Operator: Spot	Rarity: 3*	Class: Defender
+Operator: Popukar	Rarity: 3*	Class: Guard
+Operator: Midnight	Rarity: 3*	Class: Guard
+Operator: Catapult	Rarity: 3*	Class: Sniper
+Operator: Orchid	Rarity: 3*	Class: Supporter
+Operator: Steward	Rarity: 3*	Class: Caster
+Operator: Ansel	Rarity: 3*	Class: Medic
+Operator: Hibiscus	Rarity: 3*	Class: Medic
+Operator: Lava	Rarity: 3*	Class: Caster
+Operator: Adnachiel	Rarity: 3*	Class: Sniper
+Operator: Kroos	Rarity: 3*	Class: Sniper
+Operator: Beagle	Rarity: 3*	Class: Defender
+Operator: Cardigan	Rarity: 3*	Class: Defender
+Operator: Melantha	Rarity: 3*	Class: Guard
+Operator: Plume	Rarity: 3*	Class: Vanguard
+Operator: Vanilla	Rarity: 3*	Class: Vanguard
+Operator: Fang	Rarity: 3*	Class: Vanguard
+Operator: 12F	Rarity: 2*	Class: Caster
+Operator: Durin	Rarity: 2*	Class: Caster
+Operator: Rangers	Rarity: 2*	Class: Sniper
+Operator: Noir Corne	Rarity: 2*	Class: Defender
+Operator: Yato	Rarity: 2*	Class: Vanguard
+Operator: 'Justice Knight'	Rarity: 1*	Class: Sniper
+Operator: THRM-EX	Rarity: 1*	Class: Specialist
+Operator: Castle-3	Rarity: 1*	Class: Guard
+Operator: Lancet-2	Rarity: 1*	Class: Medic
+
+
+Total Operators: 251
+
+Last Updated: 06/08/2022 21:01:42
