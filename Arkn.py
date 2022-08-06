@@ -6,7 +6,7 @@ import discord
 from bs4 import BeautifulSoup
 import aiohttp
 import asyncio
-import config #File with the bot token innit
+#import config #File with the bot token innit
 import os
 import aiofiles
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
@@ -137,13 +137,12 @@ async def random_op(message, *, arg):
     else:
         await message.channel.send("Class does not exist")
 
-#token = os.environ['token']
-#client.run(token)
-
 sched = AsyncIOScheduler()
 
 # Schedule job_function to be called every two seconds
 sched.add_job(upd_list, 'interval', days=1)
 sched.start()
 
-client.run(config.token)
+token = os.environ['token']
+client.run(token)
+#client.run(config.token)
