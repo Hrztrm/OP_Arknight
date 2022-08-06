@@ -3,11 +3,10 @@
 
 from discord.ext import commands #Used to find the skins
 import discord
-import requests #Used for synchronous
 from bs4 import BeautifulSoup
 import aiohttp
 import asyncio
-#import config #File with the bot token innit
+import config #File with the bot token innit
 import os
 import aiofiles
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
@@ -138,13 +137,13 @@ async def random_op(message, *, arg):
     else:
         await message.channel.send("Class does not exist")
 
-token = os.environ['token']
-client.run(token)
+#token = os.environ['token']
+#client.run(token)
 
 sched = AsyncIOScheduler()
 
 # Schedule job_function to be called every two seconds
-sched.add_job(upd_list, 'interval', minutes=1)
+sched.add_job(upd_list, 'interval', days=1)
 sched.start()
 
-#client.run(config.token)
+client.run(config.token)

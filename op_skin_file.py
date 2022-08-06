@@ -12,7 +12,7 @@ async def skin_op(skin_list_url, filt, message):
     
     #Getting the whole skins list
     s = soup.find_all('div', class_ = 'views-field views-field-field-skin-image')
-    await message.channel.send("Searching Skins for: " + filt + "\n")
+    await message.channel.send("Searching Skins for: " + filt.capitalize() + "\n")
     
     for skin_entry in s:
         skin_op_name = skin_entry.find_all('a')
