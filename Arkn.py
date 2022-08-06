@@ -217,7 +217,31 @@ async def skin_by_op(skin_list_url, filt, message):
             await message.channel.send(infor)
             print("Skin name: " + skin_op_name[0].text + " (" + search_url[-1] + ")")
             print("Operator : " + skin_op_name[1].text + "\n")
-            
+
+async def operators(message):
+    op_list_url = "https://gamepress.gg/arknights/tools/interactive-operator-list#tags=null##stats"
+    data = await fetch(op_list_url)
+    autho = message.author.name
+    f = open(autho + "_op.txt", 'w')
+    f.seek(0)
+    
+    soup = BeautifulSoup(data, "html.parser")
+    s = soup.find_all('div', class_="operator-title")
+    
+    #Getting the attributes value use var["tagname"]
+    operator_list = soup.find_all("tr", class_="operators-row")
+    
+    for b,a in enumerate(operator_list):
+        try:
+            print(a["data-name"] + " " + a["data-rarity"])
+        except:
+            print("none")
+    print(b + 1)
+        
+    #print(a)
+    f.close()
+    #Start dri ada ke takde, 1 2 3 4 * default ada
+    
 @client.event
 async def on_ready():
     print(f'We have logged in as {client.user}')
@@ -263,5 +287,9 @@ async def op_skin(message, *, arg):
     skin_list_url = "https://gamepress.gg/arknights/gallery/arknights-skin-art-gallery"
     arg = arg.upper()
     await client.loop.create_task(skin_by_op(skin_list_url, arg, message))
+
+@client.command()
+async def op_com(message):
+    await client.loop.create_task(operators(message))
 
 client.run(config.token)
