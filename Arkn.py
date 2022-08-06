@@ -8,8 +8,9 @@ import requests #Used for synchronous
 from bs4 import BeautifulSoup
 import aiohttp
 import asyncio
-import config #File with the bot token innit
+#import config #File with the bot token innit
 import aiofiles
+import os
 
 client = commands.Bot(command_prefix='!')
 intents = discord.Intents.default()
@@ -292,4 +293,5 @@ async def op_skin(message, *, arg):
 async def op_com(message):
     await client.loop.create_task(operators(message))
 
-client.run(config.token)
+token = os.environ['token']
+client.run(token)
